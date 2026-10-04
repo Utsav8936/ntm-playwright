@@ -2,7 +2,6 @@
   "name": "playwrigthts",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
   "scripts": {
     "test:ntm-login": "playwright test tests/ntm-01-login.spec.ts --project=\"NTM Loyalty Console – Chrome\"",
     "test:ntm-login:headed": "playwright test tests/ntm-01-login.spec.ts --project=\"NTM Loyalty Console – Chrome\" --headed",
