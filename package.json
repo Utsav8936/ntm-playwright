@@ -1,0 +1,21 @@
+{
+  "name": "playwrigthts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "scripts": {
+    "test:ntm-login": "playwright test tests/ntm-01-login.spec.ts --project=\"NTM Loyalty Console – Chrome\"",
+    "test:ntm-login:headed": "playwright test tests/ntm-01-login.spec.ts --project=\"NTM Loyalty Console – Chrome\" --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1",
+    "dotenv": "^17.4.2"
+  }
+}
