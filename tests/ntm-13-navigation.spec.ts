@@ -16,7 +16,7 @@
  */
 
 import { test, expect } from '@playwright/test';
-import { loginAsAdmin } from '../../helpers/login';
+import { loginAsAdmin } from '../helpers/login';
 
 // ─── TC-075 ──────────────────────────────────────────────────────────────────
 test('TC-075 | Navigation | Unauthenticated access to /dashboard redirects to login', async ({ page }) => {

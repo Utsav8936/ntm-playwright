@@ -31,7 +31,7 @@ async function fillLoginId(page: Page, value: string) {
 
 // ─── TC-001 ──────────────────────────────────────────────────────────────────
 test('TC-001 | Login | Page renders title, inputs and Sign-in button', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('https://ntm-admin.netlify.app/');
 
   await expect(page.locator('h1')).toContainText('Sign in');
   await expect(page.locator('body')).toContainText('NTM');

@@ -15,7 +15,7 @@
  */
 
 import { test, expect } from '@playwright/test';
-import { loginAsAdmin } from '../../helpers/login';
+import { loginAsAdmin } from '../helpers/login';
 
 test.beforeEach(async ({ page }) => {
   await loginAsAdmin(page);
