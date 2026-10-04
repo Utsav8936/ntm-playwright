@@ -2,7 +2,7 @@
 
 ![Playwright](https://img.shields.io/badge/Playwright-1.61+-45ba4b?logo=playwright&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6?logo=typescript&logoColor=white)
-![CI](https://github.com/utsavkuma123/ntm-playwright/actions/workflows/playwright.yml/badge.svg)
+![CI](https://github.com/Utsav8936/ntm-playwright/actions/workflows/playwright.yml/badge.svg)
 
 End-to-end test automation for the **NTM Loyalty Console** admin panel, built with [Playwright](https://playwright.dev/) and TypeScript.
 
@@ -39,21 +39,21 @@ End-to-end test automation for the **NTM Loyalty Console** admin panel, built wi
 
 ## 🧪 Test Coverage
 
-| File | Module | TCs |
-|------|--------|-----|
-| ntm-01-login | Authentication | TC-001 → TC-005 |
-| ntm-02-dashboard | Dashboard & KPIs | TC-006 → TC-012 |
-| ntm-03-dealers | Dealers | TC-013 → TC-019 |
-| ntm-04-users | Users (Carpenters) | TC-020 → TC-025 |
-| ntm-05-products | Products & QR | TC-026 → TC-031 |
-| ntm-06-banners | Banners | TC-032 → TC-036 |
-| ntm-07-pages | CMS Pages | TC-037 → TC-041 |
-| ntm-08-rewards | Rewards Store | TC-042 → TC-047 |
-| ntm-09-redemptions etc. | Redemptions / Referrals / Languages / Notifications | TC-048 → TC-055 |
-| ntm-10-geography | States / Cities / Districts | TC-056 → TC-064 |
-| ntm-11-orders | Orders | TC-065 → TC-070 |
-| ntm-12-dynamic-values | Dynamic Values | TC-071 → TC-074 |
-| ntm-13-navigation | Navigation & Security | TC-075 → TC-079 |
+| File | Module | TCs | Live URL |
+|------|--------|-----|----------|
+| ntm-01-login | Authentication | TC-001 → TC-005 | [/login](https://appadmin.wirenails.in/login) |
+| ntm-02-dashboard | Dashboard & KPIs | TC-006 → TC-012 | [/dashboard](https://appadmin.wirenails.in/dashboard) |
+| ntm-03-dealers | Dealers | TC-013 → TC-019 | [/dealers](https://appadmin.wirenails.in/dealers) |
+| ntm-04-users | Users (Carpenters) | TC-020 → TC-025 | [/users-list](https://appadmin.wirenails.in/users-list) |
+| ntm-05-products | Products & QR | TC-026 → TC-031 | [/product](https://appadmin.wirenails.in/product) |
+| ntm-06-banners | Banners | TC-032 → TC-036 | [/banners](https://appadmin.wirenails.in/banners) |
+| ntm-07-pages | CMS Pages | TC-037 → TC-041 | [/pages](https://appadmin.wirenails.in/pages) |
+| ntm-08-rewards | Rewards Store | TC-042 → TC-047 | [/rewards](https://appadmin.wirenails.in/rewards) |
+| ntm-09-redemptions etc. | Redemptions / Referrals / Languages / Notifications | TC-048 → TC-055 | [/redemptions](https://appadmin.wirenails.in/redemptions) · [/referrals](https://appadmin.wirenails.in/referrals) · [/languages](https://appadmin.wirenails.in/languages) · [/notifications](https://appadmin.wirenails.in/notifications) |
+| ntm-10-geography | States / Cities / Districts | TC-056 → TC-064 | [/states](https://appadmin.wirenails.in/states) · [/city](https://appadmin.wirenails.in/city) · [/district](https://appadmin.wirenails.in/district) |
+| ntm-11-orders | Orders | TC-065 → TC-070 | [/orders](https://appadmin.wirenails.in/orders) |
+| ntm-12-dynamic-values | Dynamic Values | TC-071 → TC-074 | [/dynamic-values](https://appadmin.wirenails.in/dynamic-values) |
+| ntm-13-navigation | Navigation & Security | TC-075 → TC-079 | [/dashboard](https://appadmin.wirenails.in/dashboard) |
 
 **Total: 79 test cases**
 
